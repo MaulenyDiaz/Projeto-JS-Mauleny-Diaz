@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mauleny</title>
+    
+</head>
+
+<body>
+    <!---Cabeçalho-Main-->
+
+    <div class="background">
+        <nav>
+            <h2 class="logo"><span>MD</span></h2>
+            <!--Logo-->
+            <ul class="cabeçalho-link">
+                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <!--cabeçalho-link-->
+            <a href="https://github.com/MaulenyDiaz/ReceitaHtml/blob/main/index.html" class="btn">Repositorios no GitHub</a>
+        </nav>
+
+        <div class="Main">
+            <h4>Olá, meu nome é</h4>
+            <h1> <span>Mauleny Díaz</span></h1>
+            <br></br>
+
+            <!--Container-btn-->
+        </div>
+        <!--Main-->
+    </div>
+    <!--background-->
+
+
+    <!--Começo-da-seção-sobre-->
+
+    <section class="background-color-Sobre">
+        <div class="main-sobre">
+            <img src="imagem/Foto de Perfil linkedin 2022-transparentePhotoRoom (t).png">
+            <div class="Text-sobre">
+                <h2>Sobre-Mim</h2>
+
+                <h3>Tenho 27 anos de idade, sou formada pela Toti,
+                    tenho experiência em:
+                    <br></br>
+                    <br>HTML5, CSS3, JavaScript, MongoDB, SQLite e Node JS.</br>
+                    <br> Linguas:</br>
+                    <br>Espanhol Nativo</br>
+                    <br>Portugues Fluente</br>
+                    <br>Inglês Básico</br>
+                </h3>
+
+                <button type="button">Vamos conversar<a
+                        href="https://www.linkedin.com/in/mauleny-d%C3%ADaz-a191451a0"></a></button>
+                <!--Button-->
+            </div>
+            <!--Text-sobre-->
+        </div>
+        <!--main-sobre-->
+    </section>
+    <!--background-color-Sobre-->
+
+    <!--Começo-da-seção-nossos-serviços-->
+
+    <div class="Container-serviços">
+        <div class="title">
+            <h2>Meus Projetos</h2>
+        </div>
+        <!--title-->
+
+        <div class="Caixa">
+            <div class="Card">
+                <i class="fas fa-bars"></i>
+                <h5>Receita</h5>
+                <div class="Paragrafo-button">
+                    <p>Pudim de Morango </p>
+                    <button type="button">Ler Mais <a
+                            href="https://github.com/MaulenyDiaz/ReceitaHtml/blob/main/index.html"> </a></button>
+                    <!--button-->
+                </div>
+                <!--Paragrafo-button-->
+            </div>
+            <!--Card-->
+
+            <div class="Card">
+                <i class="fas fa-user"></i>
+                <h5>Marcação de texto</h5>
+                <div class="Paragrafo-button">
+                    <p>Marcação de texto em site consruido com HTML5 </p>
+                    <button type="button">Ler Mais<a
+                            href="https://github.com/MaulenyDiaz/Marca-oDeTexto/blob/main/index.html"></a></button>
+                    <!--button-->
+                </div>
+                <!--Paragrafo-button-->
+            </div>
+            <!--Card-->
+
+            <div class="Card">
+                <i class="fas fa-bell"></i>
+                <h5>Projeto HTML</h5>
+                <div class="Paragrafo-button">
+                    <p>Site construido com HTML5 </p>
+                    <button type="button">Ler Mais<a
+                            href=https://github.com/MaulenyDiaz/ProjetoHtml/blob/main/index.html></a></button>
+                    <!--button-->
+                </div>
+                <!--Paragrafo-button-->
+            </div>
+            <!--Card-->
+        </div>
+        <!--Caixa-->
+    </div>
+    <!--Conatiner-serviços-->
+
+    <!--Contatos-->
+    <div class="me-contate">
+        <p>Me contate para criar um bonito site para você</p>
+        <button type="button">
+            <a href="https://www.linkedin.com/in/mauleny-d%C3%ADaz-a191451a0">Enviar mensagem</a></button>
+        <!--button-->
+    </div>
+    <!--me-contate-->
+
+    <!--Rodapé--->
+    <section id="contact">
+        <h2>Contato</h2>
+        <form>
+            <form id='formulario'>
+
+                <input required placeholder="NOME E SOBRENOME" autofocus pattern="[^ \d]{2,} +[^ \d]{2,}.*"
+                    title="Informe um nome e um sobrenome" />
+
+                <input required placeholder="E-MAIL" type="email" pattern="[\w\d]+@[\w\d]+\.[\w\d]+"
+                    title="informe um email válido" />
+
+                <input required placeholder="CELULAR" type="tel" pattern=".{11}"
+                    title="digite apenas números, informe o ddd e o fone" />
+
+                <div class="a2">
+                    <button type="submit">Enviar</button>
+                    
+                    <a href="https://api.github.com/users/MaulenyDiaz/repos"></a>
+                </div>
+
+            </form>
+
+            <script type="text/javascript"> 
+            </script>
+        </form>
+    </section>
+
+
+    <br>
+    <br>
+    <br>
+    <h6>Mauleny Díaz</h6>
+    <p></p>
+    <div class="Redes-sociais">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+    <!--Redes-sociais-->
+    <footer>
+        Copyright © 2022 Mauleny Díaz. Todos os direitos reservados
+    </footer>
+
+
+</body>
+
+</html>
